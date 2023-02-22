@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 # Define algunos colores
-WHITE = (255, 255, 255)
+BLANCO = (255, 255, 255)
 GRIS_CLARO = (200, 200, 200)
 BLACK = (0, 0, 0)
 
