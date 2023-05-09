@@ -80,7 +80,7 @@ while not done:
     # Limpia la pantalla
     screen.fill(GRIS_CLARO)
 
-    # Dibujamos el botón
+    # Dibujamos el botón y el borde
     button_rect = pygame.Rect(WIDTH - BUTTON_WIDTH - 10, 20, BUTTON_WIDTH, BUTTON_HEIGHT)
     pygame.draw.rect(screen, BUTTON_COLOR, button_rect)
     pygame.draw.rect(screen, BUTTON_BORDER_COLOR, button_rect, 2)
